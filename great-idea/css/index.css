@@ -170,3 +170,29 @@ nav ul li a {
 	text-align: center;
 	margin: 2em 0;
 }
+
+/* SERVICES */
+.main-services {
+	display: flex;
+	width: 100%; 
+}
+
+.main-services div {
+	flex: fill;
+}
+
+.services-header-img {
+	width: 75vw;
+}
+
+/* second section */
+.secondSection-services {
+	padding-bottom: 4%;
+	margin-top: 3em;
+	display: flex;
+	justify-content: space-around;
+}
+
+.secondSection-services div {
+	width: 100%;
+}
