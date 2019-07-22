@@ -177,10 +177,6 @@ nav ul li a {
 	width: 100%; 
 }
 
-.main-services div {
-	flex: fill;
-}
-
 .services-header-img {
 	width: 75vw;
 }
@@ -195,4 +191,14 @@ nav ul li a {
 
 .secondSection-services div {
 	width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+.column {
+	flex-basis: 100%;
 }
