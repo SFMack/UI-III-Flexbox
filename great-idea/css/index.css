@@ -183,8 +183,8 @@ nav ul li a {
 
 /* second section */
 .secondSection-services {
-	padding-bottom: 4%;
-	margin-top: 3em;
+	padding-bottom: 1rem;
+	margin-top: 1.5rem;
 	display: flex;
 	justify-content: space-around;
 }
@@ -201,4 +201,25 @@ nav ul li a {
 
 .column {
 	flex-basis: 100%;
+	margin: 1rem;
+	padding: 1rem;
 }
+
+.grid {
+	height: 200px;
+	border: 1.5px solid;
+	background-color: lightgrey;
+}
+
+.list {
+	list-style: disc;
+}
+
+.list li {
+	margin-bottom: .75rem;
+}
+
+ .listDiv {
+	margin-left: 1.2rem;
+	margin-top: 1rem;
+ }
